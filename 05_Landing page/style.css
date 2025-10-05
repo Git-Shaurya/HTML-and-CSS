@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double+Ink:wght@100..900&family=Bitcount+Prop+Single+Ink:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
 body, html {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    /* 💥 MODIFIED: Use 100vh to cover the entire viewport height */
+    
     height: 100vh;
    
 } 
@@ -38,14 +42,18 @@ body, html {
 }
 
 h1{
+  font-family: "Bitcount Prop Single Ink", system-ui;
   color: #333;
   margin-bottom: 20px; 
 }
 p{
+  
+  font-family: "Oswald", sans-serif;
   color: #666;
   margin-bottom: 20px;
 }
 form{
+    font-family: "Oswald", sans-serif;
     display: flex;
     flex-direction: column;
 }
@@ -63,10 +71,12 @@ button {
     border-radius: 20px;
     color: white;
     border: none;
+    transition: background-color 0.6s
+    ease-in-out;
 }
 button:hover
  {
-    background-color: #4169e1 ;
+    background-color: #410b73 ;
 
  }
 
