@@ -1,0 +1,72 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    /* 💥 MODIFIED: Use 100vh to cover the entire viewport height */
+    height: 100vh;
+   
+} 
+
+.container {
+      /* This ensures the container takes up the full height for centering */
+      height: 100%; 
+      
+      /* Full-page gradient background */
+      background: linear-gradient(135deg, #8a2be2, #4169e1);
+      
+      /* Flexbox centering of the .content box */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+       
+}
+
+.content {
+    /* Styles for the inner box */
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 400px;
+
+}
+
+.logo{
+   width: 150px;
+   height: 150px;
+   margin-bottom: 1rem; /* Added space below the logo */
+}
+
+h1{
+  color: #333;
+  margin-bottom: 20px; 
+}
+p{
+  color: #666;
+  margin-bottom: 20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="email"] {
+     padding: 0.5rem;
+     border-radius: 4px;
+     border: 1px solid #ccc;
+     margin-bottom: 20px;
+}
+
+button {
+    padding: 0.5rem;
+    background-color: #8a2be2;
+    border-radius: 20px;
+    color: white;
+    border: none;
+}
+button:hover
+ {
+    background-color: #4169e1 ;
+
+ }
+
