@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Back</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh; /* full screen height */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           background: linear-gradient(135deg, #667eea, #764ba2);
+            font-family: Arial, sans-serif;
+            
+        }
+
+        .login {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+            text-align: center;
+        }
+        input {
+            margin: 10px 0;
+            padding: 10px;
+            width: 200px;
+        }
+
+        button {
+            margin: 5px;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 50px;
+        }
+        button:hover{
+            background-color: #764ba2;
+            
+        }
+        
+        input
+        {
+            border-radius: 50px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="login">
+            <h1>Login - MIT ADTU</h1>
+            <form>
+                <label for="email-input">Enter your email for notification</label> <br>
+                <input type="email" placeholder="Enter your Email"><br>
+                <button type="submit">Login</button>
+                <button>Forgot Password</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
